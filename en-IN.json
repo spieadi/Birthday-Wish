@@ -2,7 +2,8 @@
     "interactionModel": {
         "languageModel": {
             "invocationName": "birthday wish",
-            "intents": [{
+            "intents": [
+                {
                     "name": "AMAZON.CancelIntent",
                     "samples": []
                 },
@@ -16,10 +17,12 @@
                 },
                 {
                     "name": "NameIntent",
-                    "slots": [{
-                        "name": "name",
-                        "type": "AMAZON.FirstName"
-                    }],
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
                     "samples": [
                         "{name}"
                     ]
